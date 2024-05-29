@@ -4,3 +4,80 @@ body{
     box-sizing: border-box;
     
 }
+
+/* imagem landing page e texto lateral*/
+.landing{
+    width: 80%;
+    margin: 5% 2% auto 5%;
+}
+.imgLanding {
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin: auto 5% auto 5%;
+}
+
+.textoLanding {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    margin: 3% 2% auto 5%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 30px;
+    grid-column-gap: 50px;
+    text-align: justify;
+}
+
+/* valores*/
+
+.valores {
+    width: 70%;
+    margin: 10% 5% auto 15%;
+    font-family: sans-serif;
+}
+
+.valores h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: #c03c73;
+}
+
+.valores p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.item-valores {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+/* parte final da página*/
+
+.finalPag {
+    width: 70%;
+    margin: auto 5% auto 15%;
+}
+
+.finalPag p {
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #cc0859;
+}
+
+.imgFinalPag {
+    width: 500px;
+    border-radius: 1080px;
+    margin: 10% 20% 5% 25%;
+}
+
+.aspas {
+    color: #cc638f;
+}
