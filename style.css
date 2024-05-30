@@ -112,9 +112,18 @@ header, .landingDayCare {
     font-family: sans-serif;
     font-size: 40px;
     margin: 5% auto auto 5%;
-    text-shadow: 2px 2px 5px #c03c73;
+    text-shadow: 2px 2px 5px #803D56;
 }
 
+.textoLandingHosp {
+    position: relative;
+    z-index: 1;
+    color: #cc0859;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 5% auto auto 5%;
+    text-shadow: 5px 5px 5px #803D56;
+}
 /* texto introdutório página day care*/
 
 .introducao {
@@ -193,7 +202,90 @@ header, .landingDayCare {
     text-align: justify;
     line-height: 30px;
     width: 40%;
+}
 
+    
+/* carrossel */
+    
+    .carousel-container {
+        position: relative;
+        width: 1100px; /* Largura de cada painel */
+        margin: 200px auto;
+        overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
+        background-color: #e0e0e0; /* Cor de fundo do contêiner do carrossel */
+    }
+    
+    .carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 8800px; /* Largura total do carrossel - 4 painéis * 1100px */
+    }
+    
+    .panel {
+        width: 1100px;
+        height: 400px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        border: 1px solid #ccc; /* Cor da borda dos painéis */
+        border-radius: 10px; /* Adicionando bordas arredondadas */
+        overflow: hidden; /* Garantindo que a imagem não ultrapasse as bordas arredondadas */
+        background-color: #f8f8f8; /* Cor de fundo dos painéis */
+    }
+    
+    .content {
+        padding: 20px;
+    }
+    
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        background-color: #cc0859; /* Cor de fundo das setas de navegação */
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+
+
+/* sessão para encher linguiça*/
+
+.filling-in {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: auto ;
+}
+
+.filling-in h1 {
+    color: #803D56;
+    font-size: 50px;
+    margin-right: 10%;
+    text-shadow: 2px 5px 10px #803D56;
+}
+
+.filling-in ul{
+    font-size: 20px;
+    color: #cc0859;
+    text-align: justify;
+}
+
+.filling-in p {
+    color: black;
 }
 
 /* sessão equipe*/
@@ -209,6 +301,7 @@ header, .landingDayCare {
     align-items: center;
     font-size: 45px;
     color: #CC6289;
+    margin-bottom: 5%;
 }
 
 .equipe-grid{
@@ -233,56 +326,114 @@ header, .landingDayCare {
     padding-left: 90px;
 }
 
-/* carrossel */
+/* sessão para entrar em contato*/
 
-.carousel-container {
+.contact-in {
+    font-family: sans-serif;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1%;
+    background: #80636ecb;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #CC6289;
+}
+
+.contact-in h4 {
+    color: #cc0859;
+    font-size: 30px;
+    margin-left: 10%;
     position: relative;
-    width: 1100px; /* Largura de cada painel */
-    margin: 200px auto;
-    overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
-    background-color: #e0e0e0; /* Cor de fundo do contêiner do carrossel */
+    z-index: 1;
+
 }
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 8800px; /* Largura total do carrossel - 4 painéis * 1100px */
+.contact-in p {
+    margin-left: 10%;
+    font-size: 22px;
+    position: relative;
+    z-index: 1;
 }
 
-.panel {
-    width: 1100px;
-    height: 400px;
-    box-sizing: border-box;
+/* sessão das modalidades do adestramento*/
+
+.modalidades {
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 100px 100px;
+    font-family: sans-serif;
+    margin: auto;
+
+    width: 70%;
+    gap: 10%;
+}
+
+.modalidades-item{
+    width: 100%;
+    background: #c03c73;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    border: 1px solid #ccc; /* Cor da borda dos painéis */
-    border-radius: 10px; /* Adicionando bordas arredondadas */
-    overflow: hidden; /* Garantindo que a imagem não ultrapasse as bordas arredondadas */
-    background-color: #f8f8f8; /* Cor de fundo dos painéis */
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 20px;
 }
 
-.content {
-    padding: 20px;
+.modalidades-item:hover {
+    transform: scale(1.1, 1.1);
+    background:  #803D56;
 }
 
-button {
-    position: absolute;
+#tituloModalidades  {
+    color: #CC6289;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10% auto 50px auto;
+    font-size: 50px;
+}
+
+/* cards*/
+
+.card {
+    position: fixed;
     top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    background-color: #cc0859; /* Cor de fundo das setas de navegação */
-    color: #fff;
-    border: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: none; /* Inicialmente oculto */
+    width: 500px;
+    height: 400px;
+}
+
+.card h1{
+    color: #cc0859;
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+.card p {
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif ;
+    text-align: justify;
+    padding: 2%;
+}
+
+.card button {
+    margin-top: 150px;
     padding: 10px;
+    background-color: #cc0859;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
+.card button:hover {
+    background-color: #cc638f;
 }

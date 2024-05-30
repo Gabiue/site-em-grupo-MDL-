@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adestramento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="assets/logo.png" alt="" srcset=""></a></div>
+        <div class="servicos">Serviços
+            <div class="dropdown">
+                <ul>
+                    <li><a href="daycare.html">Day Care</a></li>
+                    <li><a href="hospedagem.html">Hospedagem</a></li>
+                    <li><a href="adestramento.html">Adestramento</a></li>
+                    <li><a href="#">teste</a></li>
+                </ul>
+            </div >
+        </div>
+        <div class="contato">Contato</div>
+    </header>
+
+    <div>
+        <div class="landingDayCare" style="background-image: url(assets/daycare.jpg);">
+            <div class="textoLandingDayCare">
+                <h1>Adestramento</h1>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="introducao">
+            <div class="introducao-item"><p>Com uma equipe de profissionais altamente capacitados e apaixonados pelo que fazem, utilizamos métodos positivos e cientificamente comprovados para ensinar comandos básicos, corrigir comportamentos indesejados e desenvolver habilidades avançadas em cães de companhia e de trabalho. Nossa missão é promover a convivência harmoniosa entre cães e seus tutores, fortalecendo o vínculo e garantindo a segurança e o bem-estar de ambos.</p></div>
+            <div class="introducao-item"><p>Cada programa é personalizado para atender às necessidades específicas de cada cão e sua família, garantindo resultados eficazes e duradouros. Na Escola Pet Marcela Love Dogs, acreditamos que o adestramento vai além dos comandos básicos; trata-se de construir uma relação de confiança e respeito mútuo, onde tanto o cão quanto o tutor saem ganhando.</p></div>
+        </div>
+    </div>
+
+    <div>
+        <h1 id="tituloModalidades">MODALIDADES</h1>
+        <div class="modalidades">
+            <div class="modalidades-item" onclick="showCard('card1')">
+                <p>Adestramento Básico</p>
+            </div>
+            <div class="modalidades-item" onclick="showCard('card2')">
+                <p>Adestramento Intermediário</p>
+            </div>
+            <div class="modalidades-item" onclick="showCard('card3')">
+                <p>Adestramentro Avançado</p>
+            </div>
+            <div class="modalidades-item" onclick="showCard('card4')">
+                <p>Correção de comportamento</p>
+            </div>
+            <div class="modalidades-item" onclick="showCard('card5')">
+                <p>Filhotes</p>
+            </div>
+            <div class="modalidades-item" onclick="showCard('card6')">
+                <p>Adestramento para competições</p>
+            </div>
+        </div>
+
+        <div class="card" id="card1">
+            <h1>Adestramento Básico</h1>
+            <p>O adestramento básico para cães é essencial para uma convivência harmoniosa entre o animal e seu tutor. Ensinando comandos como "senta", "fica", "deita" e "vem", facilita-se a comunicação e evita-se comportamentos indesejados. Usando reforço positivo, os cães aprendem de forma saudável e eficaz, melhorando a disciplina e a socialização, o que resulta em um ambiente mais tranquilo e agradável para todos.</p>
+            <button onclick="hideCard('card1')">Fechar</button>
+        </div>
+        <div class="card" id="card2">
+            <h1>Adestramento Intermediário</h1>
+            <p>Além dos novos comandos, o adestramento intermediário foca na socialização avançada. Utilizando técnicas positivas e reforços consistentes, os treinadores ajudam os cães a se tornarem mais obedientes e equilibrados, facilitando a convivência diária e fortalecendo o vínculo entre o cão e seu tutor. Essa etapa é essencial para cães que precisam de uma convivência mais harmoniosa em ambientes variados.</p>
+            <button onclick="hideCard('card2')">Fechar</button>
+        </div>
+        <div class="card" id="card3">
+            <h1>Adestramento Avançado</h1>
+            <p>Nesse estágio, os cães são treinados para executar tarefas mais complexas, como resgates, terapias ou competições. Esse tipo de treinamento envolve técnicas específicas que aprimoram a obediência, concentração e agilidade do cão. Além disso, é uma oportunidade para fortalecer o vínculo entre o tutor e o animal. O adestramento avançado oferece estímulo mental e físico, promovendo um comportamento equilibrado e aumentando a confiança do animal.</p>
+            <button onclick="hideCard('card3')">Fechar</button>
+        </div>
+        <div class="card" id="card4">
+            <h1>Correção de comportamento</h1>
+            <p>O adestramento canino com foco na correção de comportamento é uma abordagem especializada que visa corrigir e modificar padrões comportamentais indesejados em cães. Ao contrário do simples treinamento de obediência, esse método concentra-se em identificar e abordar problemas específicos de comportamento, como agressividade, ansiedade e medo. São utilizadas técnicas baseadas em reforço positivo e compreensão do comportamento canino. </p>
+            <button onclick="hideCard('card4')">Fechar</button>
+        </div><div class="card" id="card5">
+            <h1> Filhotes</h1>
+            <p>O adestramento para filhotes de cães é essencial para estabelecer uma base sólida de comportamento desde tenra idade. Através de técnicas gentis e consistentes, os filhotes aprendem comandos básicos como sentar, deitar e vir quando chamados. Além de promover a obediência, o treinamento ajuda a socializar os filhotes, tornando-os mais seguros e confiantes em diferentes situações. </p>
+            <button onclick="hideCard('card5')">Fechar</button>
+        </div>
+        <div class="card" id="card6">
+            <h1>Adestramento para Competições</h1>
+            <p>Este tipo de adestramento requer uma abordagem especializada, visando desenvolver habilidades específicas que são avaliadas em competições, como precisão, velocidade e obediência. Os cães são treinados para executar uma variedade de comandos complexos e realizar tarefas desafiadoras, tudo com o objetivo de alcançar o mais alto desempenho possível. </p>
+            <button onclick="hideCard('card6')">Fechar</button>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+
+    <div class="atividades">
+        <h1>NOSSA METODOLOGIA</h1>
+        <img src="assets/atividades.jpg" >
+        <p>Adotamos métodos que enfatizam o reforço positivo, baseados em recompensas como elogios, carinho e petiscos saudáveis. Acreditamos que esse tipo de abordagem não apenas fortalece o vínculo entre o tutor e o cão, mas também cria uma atmosfera de confiança e motivação para aprender. Desde o ensino de comandos básicos até a correção de comportamentos indesejados, priorizamos o uso de reforços positivos para incentivar e consolidar bons hábitos. Com isso, buscamos não apenas treinar cães, mas também cultivar uma relação harmoniosa e duradoura entre eles e seus tutores, onde o respeito mútuo e a felicidade são os pilares fundamentais.</p>
+    </div>
+
+    <div class="equipe">
+        <h1>NOSSA  EQUIPE</h1>
+        <div class="equipe-grid">
+            <div class="equipe-grid-item"><img src="assets/ana.png" ></div>
+            <div class="equipe-grid-item"><img src="assets/ju.png" ></div>
+            <div class="equipe-grid-item"><img src="assets/gio.png" ></div>
+            <div class="equipe-grid-item"><p>Ana Clara</p></div>
+            <div class="equipe-grid-item"><p>Juliana</p></div>
+            <div class="equipe-grid-item"><p>Giovana</p></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -24,3 +24,13 @@ function updateCarousel() {
 
 // Chame a função updateCarousel inicialmente para garantir que o carrossel inicie corretamente
 updateCarousel();
+
+
+//cards
+function showCard(cardId) {
+    document.getElementById(cardId).style.display = 'block';
+}
+
+function hideCard(cardId) {
+    document.getElementById(cardId).style.display = 'none';
+}
