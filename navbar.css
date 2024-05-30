@@ -1,13 +1,13 @@
  header{
     width: 100vw;
-    background-color: #FF85B8;
+    background-color: #FF7AAB;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     font-size: 30px;
     font-family: sans-serif;
-
+    color: #803D56;
 }
 
 .logo{

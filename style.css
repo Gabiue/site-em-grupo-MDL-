@@ -7,8 +7,8 @@ body{
 
 /* imagem landing page e texto lateral*/
 .landing{
-    width: 80%;
-    margin: 5% 2% auto 5%;
+    width: 50%;
+    margin: 5% 2% 10% 10%;
 }
 .imgLanding {
     width: 400px;
@@ -33,7 +33,7 @@ body{
 
 .valores {
     width: 70%;
-    margin: 10% 5% auto 15%;
+    margin: 20% 5% auto 15%;
     font-family: sans-serif;
 }
 
@@ -43,7 +43,7 @@ body{
     align-items: center;
     font-size: 35px;
     font-weight: 100;
-    color: #c03c73;
+    color: #CC6289;
 }
 
 .valores p {
@@ -69,7 +69,7 @@ body{
     font-size: 35px;
     font-family: sans-serif;
     text-align: center;
-    color: #cc0859;
+    color: #CC6289;
 }
 
 .imgFinalPag {
@@ -148,7 +148,7 @@ header, .landingDayCare {
 }
 
 .beneficios h1 {
-    color: #cc0859;
+    color: #CC6289;
 
 }
 
@@ -178,7 +178,7 @@ header, .landingDayCare {
 }
 
 .atividades h1 {
-    color: #cc0859;
+    color: #CC6289;
 }
 
 .atividades img{
@@ -208,7 +208,7 @@ header, .landingDayCare {
     justify-content: center;
     align-items: center;
     font-size: 45px;
-    color: #cc0859;
+    color: #CC6289;
 }
 
 .equipe-grid{
@@ -235,3 +235,54 @@ header, .landingDayCare {
 
 /* carrossel */
 
+.carousel-container {
+    position: relative;
+    width: 1100px; /* Largura de cada painel */
+    margin: 200px auto;
+    overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
+    background-color: #e0e0e0; /* Cor de fundo do contêiner do carrossel */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 8800px; /* Largura total do carrossel - 4 painéis * 1100px */
+}
+
+.panel {
+    width: 1100px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #ccc; /* Cor da borda dos painéis */
+    border-radius: 10px; /* Adicionando bordas arredondadas */
+    overflow: hidden; /* Garantindo que a imagem não ultrapasse as bordas arredondadas */
+    background-color: #f8f8f8; /* Cor de fundo dos painéis */
+}
+
+.content {
+    padding: 20px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #cc0859; /* Cor de fundo das setas de navegação */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
