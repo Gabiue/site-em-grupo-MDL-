@@ -76,6 +76,8 @@ body{
     width: 500px;
     border-radius: 1080px;
     margin: 10% 20% 5% 25%;
+    box-shadow: 2px 2px 30px #c03c73;
+    
 }
 
 .aspas {
@@ -436,4 +438,31 @@ header, .landingDayCare {
 
 .card button:hover {
     background-color: #cc638f;
+}
+
+/* mapa*/
+
+iframe {
+    width: 500px;
+    height: 600px;
+    float: left;
+    margin: 5% 10% auto 10%;
+}
+
+/* endereço e horário de funcionamento*/
+
+.endereco {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 15%;
+    font-family: sans-serif;
+}
+
+.endereco h1 {
+    color: #CC6289;;
+    margin-top: 30px;
+}
+
+.endereco p {
+    font-size: 20px;
 }
