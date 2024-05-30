@@ -193,3 +193,28 @@ header, .landingDayCare {
     width: 40%;
 
 }
+
+/* sessão equipe*/
+.equipe {
+    width: 100%;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+.equipe h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #cc0859;
+}
+
+.equipe-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 5%;
+}
+
+.equipe-grid-item img{
+    border-radius: 400px;
+}
