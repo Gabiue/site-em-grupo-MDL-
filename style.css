@@ -110,4 +110,26 @@ header, .landingDayCare {
     color: #cc0859;
     font-family: sans-serif;
     font-size: 40px;
+    margin: 5% auto auto 5%;
+}
+
+/* texto introdutório página day care*/
+
+.introducao {
+    width: 80%;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    gap: 5%;
+    text-align: justify;
+}
+
+.introducao-item{
+    border: 2px solid #cc0859;
+    padding: 5%;
+    box-shadow: 2px 2px 10px #cc0859;
+    border-radius: 10px;
 }
