@@ -149,6 +149,7 @@ header, .landingDayCare {
     color: #cc0859;
 
 }
+
 .beneficios img{
     width: 400px;
     float: left;
@@ -161,4 +162,34 @@ header, .landingDayCare {
     text-align: justify;
     line-height: 30px;
     padding-top: 10%;
+}
+
+/* sessão atividades*/
+.atividades{
+    width: 70%;
+    font-family: sans-serif;
+    margin: 10% 7% auto 13%;
+    border: 2px solid #cc0859;
+    box-shadow: 2px 2px 10px #cc0859;
+    border-radius: 10px;
+    padding: 2% 5% 5% 5%;
+}
+
+.atividades h1 {
+    color: #cc0859;
+}
+
+.atividades img{
+    width: 600px;
+    float: right;
+    margin-top: 5%;
+
+}
+
+.atividades p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 30px;
+    width: 40%;
+
 }
