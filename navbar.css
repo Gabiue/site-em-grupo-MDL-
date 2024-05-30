@@ -5,7 +5,8 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    font-size: 30px
+    font-size: 30px;
+    font-family: sans-serif;
 
 }
 
@@ -23,24 +24,23 @@
 
 }
 
+
+.servicos{
+    margin-right: 2%;
+    margin-left: 8%;
+    width: 15%;
+    padding: 20px ;
+    text-align: right;
+    cursor: pointer;
+}
+
 .contato{
     width: 15%;
     padding: 20px;
-    text-align: center;
+    text-align: right;
     width: 10%;
     cursor: pointer;
 }
-
-
-
-.servicos{
-    margin-right: 15%;
-    width: 15%;
-    padding: 20px ;
-    text-align: center;
-    cursor: pointer;
-}
-
 
 .dropdown{
     display: none;
