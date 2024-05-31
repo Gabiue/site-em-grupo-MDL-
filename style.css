@@ -132,7 +132,7 @@ header, .landingDayCare {
     width: 80%;
     font-size: 22px;
     font-family: sans-serif;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 5%;
     display: grid;
     grid-template-columns: 550px 550px;
@@ -212,6 +212,7 @@ header, .landingDayCare {
     .carousel-container {
         position: relative;
         width: 1100px; /* Largura de cada painel */
+        
         margin: 200px auto;
         overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
         background-color: #e0e0e0; /* Cor de fundo do contêiner do carrossel */
