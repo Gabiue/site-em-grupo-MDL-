@@ -5,6 +5,10 @@ body{
 
 }
 
+b {
+    color: #cc0859;
+}
+
 /* imagem landing page e texto lateral*/
 .landing{
     width: 50%;
@@ -211,7 +215,7 @@ header, .landingDayCare {
     
     .carousel-container {
         position: relative;
-        width: 1100px; /* Largura de cada painel */
+        width: 880px; /* Largura de cada painel */
         
         margin: 200px auto;
         overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
@@ -221,7 +225,7 @@ header, .landingDayCare {
     .carousel {
         display: flex;
         transition: transform 0.5s ease-in-out;
-        width: 8800px; /* Largura total do carrossel - 4 painéis * 1100px */
+        width: 7040px; /* Largura total do carrossel - 4 painéis * 1100px */
     }
     
     .panel {
@@ -366,9 +370,9 @@ header, .landingDayCare {
     grid-template-rows: 100px 100px 100px;
     font-family: sans-serif;
     margin: auto;
-
     width: 70%;
     gap: 10%;
+    box-shadow: ;
 }
 
 .modalidades-item{
@@ -380,7 +384,10 @@ header, .landingDayCare {
     align-items: center;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+    text-shadow: 2px 2px 10px black;
 }
 
 .modalidades-item:hover {
