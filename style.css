@@ -341,7 +341,7 @@ header, .landingDayCare {
     margin: auto;
     margin-top: 10%;
     padding: 1%;
-    background: #80636ecb;
+    background: #f27dae;
     border-radius: 10px;
     box-shadow: 2px 2px 20px #CC6289;
 }
@@ -372,7 +372,7 @@ header, .landingDayCare {
     margin: auto;
     width: 70%;
     gap: 10%;
-    box-shadow: ;
+
 }
 
 .modalidades-item{
@@ -388,6 +388,7 @@ header, .landingDayCare {
     font-weight: 550;
     color: white;
     text-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 30px #cc0859;
 }
 
 .modalidades-item:hover {
@@ -473,4 +474,27 @@ iframe {
 
 .endereco p {
     font-size: 20px;
+}
+
+.whats{
+    padding-left: 10px;
+
+}
+
+.whats a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.whats a:hover{
+    text-decoration: none;
+    color: rgb(24, 194, 24);
+
+}
+.whats i{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    font-weight: bold;
 }
