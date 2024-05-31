@@ -1,12 +1,13 @@
  header{
     width: 100vw;
-    background-color: #FF7AAB;
+    background-color:#c03c73;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     font-size: 30px;
     font-family: sans-serif;
+    
 
 }
 
@@ -25,13 +26,22 @@
 }
 
 
+    
+
+
 .servicos{
     margin-right: 2%;
     margin-left: 8%;
-    width: 15%;
-    padding: 20px ;
+    width: 16%;
+    padding: 2px ;
     text-align: center;
     cursor: pointer;
+    color: white;
+    z-index: 3;
+    font-weight: bold;
+    
+    
+
 }
 
 .contato{
@@ -47,25 +57,30 @@
     padding: 20px;
     text-align: right;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    font-weight: bold;
+    
 }
 
 .dropdown{
+    font-size: 22px;
     display: none;
-    width: 15%;
+    width: 16%;
     position: absolute;
     margin: 0 auto;
     list-style: none;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding-top: 0px;
     z-index: 2;
+    font-weight: normal;
 }
 
 .dropdown li{
-    padding:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     align-items: center;
     
@@ -73,18 +88,21 @@
 
 .dropdown ul{
     width: 100%;
-    background-color: rgb(245, 245, 245);
+    background-color: #c03c73;
     list-style: none;
     padding: 0;
     text-align: center;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
     
 }
 
 .dropdown a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    
+    
    
     
 }
