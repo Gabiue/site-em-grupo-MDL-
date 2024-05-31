@@ -1,0 +1,91 @@
+footer{
+    width: 100vw;
+    background-color:#c03c73;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 200px;
+    
+}
+.containerfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    padding-top: 50px;
+}
+.sociaisfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contatofooter ,.servicosfooter, .saibafooter{
+    cursor: pointer;
+    padding-bottom: 25px;
+   
+}
+
+.contatofooter:hover ,.servicosfooter:hover, .saibafooter:hover{
+    color: #000000;
+    transition: 0.5s;
+}
+
+.servicosfooter{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.dropdownfooter{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 500px;
+    transition: 0.5s;
+    position: absolute;
+    display: none;
+    right: -500px;
+    top: -50px;
+    
+    
+    
+}
+.servicosfooter:hover .dropdownfooter{
+    display: block;
+}
+.dropdownfooter li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.dropdownfooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    padding-left: 10p;
+}
+.dropdownfooter a:hover{
+    color: #000000;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.contatofooter a:hover ,.saibafooter a:hover{
+    color: #000000;
+    transition: 0.5s;
+}
+
+.adressfooter{
+    font-style: italic;
+    font-size: 22px;
+    font-weight: lighter;
+}
