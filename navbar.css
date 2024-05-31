@@ -30,7 +30,7 @@
     margin-left: 8%;
     width: 15%;
     padding: 20px ;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -73,7 +73,7 @@
 
 .dropdown ul{
     width: 100%;
-    background-color: rgba(245, 245, 245, 0.788);
+    background-color: rgb(245, 245, 245);
     list-style: none;
     padding: 0;
     text-align: center;
