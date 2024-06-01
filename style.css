@@ -231,7 +231,7 @@ header, .landingDayCare {
     .carousel {
         display: flex;
         transition: transform 0.5s ease-in-out;
-        width: 7040px; /* Largura total do carrossel - 4 painéis * 1100px */
+        width: 7200px; /* Largura total do carrossel - 4 painéis * 1100px */
     }
     
     .panel {
